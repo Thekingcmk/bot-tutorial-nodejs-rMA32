@@ -97,7 +97,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("https://dl.dropboxusercontent.com/u/23821444/Madden%20Fantasy%20rules.docx");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
@@ -137,7 +137,7 @@ function respond() {
   } 
   else if(request.text && botRegexWk.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1kJqQWCq3RKiTrd4f71FFNKr-Y0ppJzjk0fSF0rP6Bto/edit?usp=sharing");
+    postMessage("https://docs.google.com/spreadsheets/d/1jzPXDX7hntUJvv75zQjDGp0l20A1Hrxw4XT-hr9Lm80/edit?usp=sharing");
     this.res.end();
   } 
   else if(request.text && botODB.test(request.text)) {
