@@ -97,7 +97,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://dl.dropboxusercontent.com/u/23821444/Madden%20Fantasy%20rules.docx");
+    postMessage("https://docs.google.com/document/d/1Q5Q7wExFSw8iwiqa8CMm0Q0Rl29MEjMVkAJFydR-Zx0/edit#heading=h.x8iq46qi1f05");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
